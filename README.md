@@ -1,4 +1,4 @@
-> 📂 Download Full Dataset>>(https://www.kaggle.com/datasets/shrinivasv/retail-store-star-schema-dataset?  utm_source=chatgpt.com)
+> 📂 Download Full Dataset>>(https://www.kaggle.com/datasets/shrinivasv/retail-store-star-schema-dataset)
 
 
 # Retail-Sales-Analysis-with-Advanced-SQL
