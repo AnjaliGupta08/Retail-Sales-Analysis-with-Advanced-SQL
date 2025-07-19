@@ -41,31 +41,25 @@ This report presents a complete SQL-based analysis of a multi-dimensional retail
   * `__Loyal Customer__` customers contributed `__₹954807.26_`
   * `__Occasional Shopper__` customers contributed `__₹976510.32_`
   * `__In-Store Regular__` customers contributed `__₹1092768.46_`
-
-
-
-
-   
-  
-          *   * `__Budget__` customers contributed `__₹XXXXX__`
+    
 * **Top Spending Customers:**
-  (IDs: `__CUST123__`, `__CUST456__`) spent over `__₹XXXXX__`
+  (IDs: `__CUST_57356__`, `__CUST_08778__`,` __CUST_44253__`) spent over `__₹28077__`
 
-> 📌 *Insight:* Premium customers contribute a disproportionate share of revenue. Targeted loyalty programs may increase retention.
-
+> 📌 *Insight:* The "In-Store Regular" and "Occasional Shopper" segments generated the highest revenue. Meanwhile, "Loyal Customers" and "First-time Buyers" are both strong performers and should be nurtured through loyalty rewards.
 ---
 
 ## 📦 3. Product Sales Performance
 
-* **Total Products Sold:** `__XXXX__`
-* **Top Selling Product:** `__Product Name__` with `__X,XXX__` units sold
-* **Revenue by Product Category:**
+* **Total Products Sold:** `__5724_`
+* **Top Selling Product:** `__Running Shoes__` with `__96__` units sold
+* **Revenue by Product Category TOP 3:**
+  
+  * `__Sports & Outdoors__` — `__₹1026785.92__`
+  * `__Clothing_` — `__₹864775.17__`
+  * `__Furniture_` — `__₹858575.55__`
+* **Top Brand by Revenue:** `__Nike__`
 
-  * `__Category A__` — `__₹XXXXX__`
-  * `__Category B__` — `__₹XXXXX__`
-* **Top Brand by Revenue:** `__Brand Name__`
-
-> 📌 *Insight:* Specific product categories and brands are outperforming others — inventory planning and promotions can focus here.
+> 📌 *Insight:* __Sports and Outdoor__ categories and  __Nike__brands are outperforming others — inventory planning and promotions can focus here.
 
 ---
 
@@ -111,19 +105,7 @@ This report presents a complete SQL-based analysis of a multi-dimensional retail
 
 ---
 
-## 🧹 7. Data Cleaning Summary
 
-* `dim_dates.full_date` had inconsistent formats (some serials like `58628`)
-
-  * ✅ Cleaned using `DATE_ADD('1899-12-30', INTERVAL full_date DAY)`
-* `fact_sales_normalized.sales_date` contained timestamp (`T15:28:02`)
-
-  * ✅ Extracted clean date using `DATE(f.sales_date)` → `clean_sales_date`
-* ✅ Deduplicated `dim_dates` using `GROUP BY full_date HAVING COUNT(*) > 1`
-
-> 📌 *Insight:* Clean date joins were essential to accurate time-based analysis.
-
----
 
 ## 💡 Key Business Recommendations
 
