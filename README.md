@@ -121,6 +121,6 @@ ROI = Revenue Generated - Campaign Budget.
 
 ##  Conclusion
 
-This SQL project demonstrates a complete data analysis in a retail environment — including cleaning raw data, joining fact/dimension tables, advanced querying, and strategic reporting. It’s a powerful foundation for BI dashboards or executive summaries.
+This SQL project demonstrates a complete data analysis in a retail environment — including cleaning raw data, joining fact/dimension tables, advanced querying, and strategic reporting.
 
 ---
