@@ -48,7 +48,7 @@ This report presents a complete SQL-based analysis of a multi-dimensional retail
 > 📌 *Insight:* The "In-Store Regular" and "Occasional Shopper" segments generated the highest revenue. Meanwhile, "Loyal Customers" and "First-time Buyers" are both strong performers and should be nurtured through loyalty rewards.
 ---
 
-## 📦 3. Product Sales Performance
+## 3. Product Sales Performance
 
 * **Total Products Sold:** `__5724_`
 * **Top Selling Product:** `__Running Shoes__` with `__96__` units sold
@@ -63,43 +63,46 @@ This report presents a complete SQL-based analysis of a multi-dimensional retail
 
 ---
 
-## 📈 4. Time-Based Trends
+## 4. Time-Based Trends
 
 * **Monthly Sales Trend:**
 
-  * Highest month: `__Month Name__` with `__₹XXXXX__` in revenue
-  * Lowest month: `__Month Name__` with `__₹XXXXX__`
+  * Highest month: `__June_` with `__₹283238.7_` in revenue
+  * Lowest month: `__August__` with `__₹3126930.80__`
 * **Quarterly Performance:**
 
-  * Q1: `__₹XXX__` | Q2: `__₹XXX__` | Q3: `__₹XXX__` | Q4: `__₹XXX__`
+  * Q1: `__₹777374.13__` | Q2: `__₹2982595.50__` | Q3: `__₹7525158.43__` | Q4: `__₹2025522.38__`
 * **Weekday Trends:**
 
-  * Busiest day: `__Monday__`
-  * Slowest day: `__Tuesday__`
+  * Busiest day: `__Tuesday__`
+  * Slowest day: `__Saturday__`
 
-> 📌 *Insight:* Sales peak in specific months and weekdays, enabling more effective staffing and marketing decisions.
-
----
-
-## 🎯 5. Campaign Effectiveness
-
-* **Total Campaigns:** `__XX__`
-* **Top Campaign:** `__Campaign Name__` with sales of `__₹XXXXX__`
-* **Underperforming Campaigns (Bottom 25%):**
-
-  * `__Campaign A__`, `__Campaign B__`, etc.
-
-> 📌 *Insight:* Evaluate low-performing campaigns for potential redesign or discontinuation.
+> 📌 *Insight:* Sales peak in __June__ and __Tuesday__, enabling more effective staffing and marketing decisions.
 
 ---
 
-## 🧑‍💼 6. Salesperson Performance
+## 5. Campaign Effectiveness
 
-* **Top Salesperson:** `__Name__` — `__₹XXXXX__` revenue
+* **Total Distinct Campaigns:** `__50__`
+* **Top Campaign:** `__Smart Shopper Week__` with sales of `__₹386484.44__`
+  
+* **Underperforming Campaigns : Campaign ROI ( Return on Investment) Overview:**
+Most campaigns generated Negetive  ROI.
+ROI = Revenue Generated - Campaign Budget.
+
+> 📌 *Insight:* Those with negative ROI `__Early Bird Specials__`, `__Mid-Year Madness__`,`__Loyalty Rewards Blast__`, `__Final Call Frenzy__`, etc. should be reassessed or redesigned..
+
+---
+
+## 6. Salesperson Performance
+
+* **Top Salesperson:** `__Julie Wells__` — `__₹35624.19__` revenue
 * **Sales Distribution by Role:**
 
-  * `__Senior Reps__`: `__₹XXXXX__`
-  * `__Junior Reps__`: `__₹XXXXX__`
+  * `__Sales Associate_`: `__₹3767680.77__`
+  * `__Salesperson__`: `__₹3708419.37__`
+  * `__Manager__`: `__₹3627057.83__`
+  * `__Senior Salesperson__`: `__₹3349336.99__`
 
 > 📌 *Insight:* High-performing reps can be used for training and best practices sharing.
 
@@ -107,25 +110,17 @@ This report presents a complete SQL-based analysis of a multi-dimensional retail
 
 
 
-## 💡 Key Business Recommendations
+##  Key Business Recommendations
 
-* Focus marketing in regions like `__Top Location__` and push `__Top Brand__` products.
-* Schedule flash sales or events during `__Busiest Month__` and on `__Top Weekday__`.
-* Reinvest in campaigns with proven ROI and reassess those below 25th percentile.
+* Focus marketing in regions like `__San Antonio__` and push `__Nike__` products.
+* Schedule flash sales or events during `__June__` and on `__Tuesday__`.
+* Reinvest in campaigns with proven ROI and reassess those with Negetive ROI.
 * Empower top-performing salespersons and optimize underperforming teams.
 
 ---
 
-## 📦 Tools Used
+##  Conclusion
 
-* MySQL (querying, cleaning, analysis)
-* Excel (optional CSV validation)
-* GitHub (project versioning and showcase)
-
----
-
-## 🧐 Conclusion
-
-This SQL project demonstrates a complete lifecycle of data analysis in a retail environment — including cleaning raw data, joining fact/dimension tables, advanced querying, and strategic reporting. It’s a powerful foundation for BI dashboards or executive summaries.
+This SQL project demonstrates a complete data analysis in a retail environment — including cleaning raw data, joining fact/dimension tables, advanced querying, and strategic reporting. It’s a powerful foundation for BI dashboards or executive summaries.
 
 ---
